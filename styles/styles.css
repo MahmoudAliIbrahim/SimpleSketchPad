@@ -1,0 +1,72 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#wrapper{
+    width: 960px;
+    margin: 10px auto;
+}
+#header{
+    width: 90%;
+    margin: 10px auto;
+    text-align: center;
+}
+#logo{
+    margin: 10px auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color:darkgray;
+    font-size: 40px;
+}
+#container{
+    width: 100%;
+    height: auto;
+    margin: 10px auto;
+    clear: both;
+}
+.mouseHover{
+    background-color: gray;
+}
+#board{
+    width: 90%;
+    margin: 10px auto;
+    text-align: center;
+}
+#new{
+    float: left;
+    margin: 10px;
+}
+#colors{
+    float: right;
+}
+.color{
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    float: left;
+}
+#red{
+    background-color: red;
+}
+#green{
+        background-color: green;
+}
+#gray{
+    background-color: gray;
+}
+#blue{
+    background-color: blue;
+}
+#black{
+    background-color: black;
+}
+#yellow{
+    background-color: yellow;
+}
+#brown{
+    background-color: brown;
+}
+#orange{
+    background-color: orange;
+}

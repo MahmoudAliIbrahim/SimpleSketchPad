@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <meta charset=utf-8>
+        <title>Sketchpad</title>
+        <link rel="stylesheet" href="styles/styles.css">
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="header">
+                <h1 id="logo">Sketchpad.</h1>
+                <p>Click on the squares to create your own sketch</p>
+            </div>
+            <div id="board">
+                <input type="button" id="new" value="New Grid" onclick="setup()">
+                <div id = "colors">
+                    <div id="red" class="color"></div>
+                    <div id="yellow" class="color"></div>
+                    <div id="brown" class="color"></div>
+                    <div id="orange" class="color"></div>
+                    <div id="green" class="color"></div>
+                    <div id="gray" class="color"></div>
+                    <div id="blue" class="color"></div>
+                    <div id="black" class="color"></div>
+                </div>
+            </div>
+            <div id="container"></div>
+        </div>
+        <script src="scripts/jquery-3.1.0.min.js"></script>
+        <script src="scripts/script.js"></script>
+    </body>
+</html>
